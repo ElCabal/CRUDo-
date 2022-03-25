@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply w-full py-2 cursor-pointer font-subtitle font-bold text-lg rounded active:scale-95;
+    }
+
+    .btn-primary {
+        @apply bg-sky-700 text-white;
+    }
+
+    .btn-secondary {
+        @apply text-sky-700 border-2 border-sky-700;
+    }
+}

@@ -4,7 +4,7 @@
 
 @layer components {
     .btn {
-        @apply w-full py-2 cursor-pointer font-subtitle font-bold text-lg rounded active:scale-95;
+        @apply w-full py-2 cursor-pointer font-subtitle font-bold text-lg rounded active:scale-95 text-center;
     }
 
     .btn-primary {

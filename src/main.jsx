@@ -14,9 +14,9 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index="home" element={<Landing />} />
-          <Route path="datelist" elemente={<DateList />} />
-          <Route path="editdate" elemente={<EditDate />} />
-          <Route path="newdate" elemente={<NewDate />} />
+          <Route path="datelist" element={<DateList />} />
+          <Route path="editdate" element={<EditDate />} />
+          <Route path="newdate" element={<NewDate />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -8,8 +8,8 @@ const Footer = () => {
         © 2022 <span className="font-bold text-white">CRUDo</span>
       </div>
       <div className="text-white font-medium">
-        <p>
-          Developed by :{" "}
+        <p className=" flex  sm:gap-2">
+          Developed by :{"     "}
           <a className="  text-sky-600" href="https://github.com/ElCabal">
             ElCabal{" "}
           </a>

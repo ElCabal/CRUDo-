@@ -4,7 +4,7 @@ import Footer from "./components/sections/Footer";
 
 function App() {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col justify-between items-center font-secondary">
+    <div className="bg-gray-100 min-h-screen gap-5 flex flex-col justify-between items-center font-secondary">
       <Navbar />
       <Outlet />
       <Footer />

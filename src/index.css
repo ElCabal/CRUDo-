@@ -14,4 +14,8 @@
     .btn-secondary {
         @apply text-sky-700 border-2 border-sky-700;
     }
+
+    .btn-danger {
+      @apply bg-red-50 text-red-800 border-2 border-red-800;
+  }
 }

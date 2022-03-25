@@ -47,7 +47,7 @@ const NewDate = () => {
               Fecha:
             </label>
             <input
-              type="date"
+              type="datetime-local"
               id="date"
               className="bg-gray-100 p-2 rounded placeholder-gray-400"
             />

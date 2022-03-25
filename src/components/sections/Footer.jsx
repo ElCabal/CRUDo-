@@ -10,11 +10,19 @@ const Footer = () => {
       <div className="text-white font-medium">
         <p className=" flex  sm:gap-2">
           Developed by :{"     "}
-          <a className="  text-sky-600" href="https://github.com/ElCabal">
+          <a
+            className="  text-sky-600"
+            href="https://github.com/ElCabal"
+            target="_blank"
+          >
             ElCabal{" "}
           </a>
-          <VscGithub className=" inline text-2xl" />
-          <a className=" text-sky-600" href="https://github.com/iElectro13">
+          <VscGithub className="inline text-2xl" />
+          <a
+            className=" text-sky-600"
+            href="https://github.com/iElectro13"
+            target="_blank"
+          >
             {" "}
             iElectro13
           </a>

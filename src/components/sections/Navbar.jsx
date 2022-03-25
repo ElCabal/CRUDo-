@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { BiMenu } from "react-icons/bi";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <nav className="p-4 flex justify-between items-center w-full relative">
-            <span className="font-secondary font-black text-5xl text-sky-700 cursor-pointer">
+            <Link to="/" className="font-secondary font-black text-5xl text-sky-700 cursor-pointer">
                 CRUDo
-            </span>
+            </Link>
             <BiMenu onClick={()=> setIsOpen(!isOpen)} className="text-gray-900 text-5xl cursor-pointer active:scale-95" />
             { isOpen &&
                 <div className="absolute flex flex-col justify-center items-center bg-gray-900 text-sky-600 font-montserrat font-black w-full gap-4 py-4 top-full left-0">

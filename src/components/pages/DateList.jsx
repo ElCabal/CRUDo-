@@ -1,7 +1,12 @@
 import React from "react";
+import MainLayout from "../sections/MainLayout";
 
 const DateList = () => {
-  return <div>DateList</div>;
+  return (
+    <MainLayout title="Citas">
+
+    </MainLayout>
+  );
 };
 
 export default DateList;

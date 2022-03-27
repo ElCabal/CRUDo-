@@ -16,7 +16,7 @@ ReactDOM.render(
         <Route path="/" element={<App />}>
           <Route index="home" element={<Landing />} />
           <Route path="datelist" element={<DateList />} />
-          <Route path="editdate" element={<EditDate />} />
+          <Route path="editdate/:id_param" element={<EditDate />} />
           <Route path="newdate" element={<NewDate />} />
         </Route>
         <Route path="*" element={<Error404 />} />

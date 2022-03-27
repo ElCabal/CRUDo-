@@ -4,11 +4,11 @@ import MainLayout from "../sections/MainLayout";
 
 const Landing = () => {
   return (
-    <MainLayout title="Bienvenido a CRUDo">
+    <MainLayout>
       <div className="flex flex-col justify-center items-center p-2 w-full gap-6">
-        {/* <h1 className="font-primary font-black text-gray-900 text-5xl text-center">
+        <h1 className="font-primary font-black text-gray-800 text-5xl text-center">
           Bienvenido a CRUDo
-        </h1> */}
+        </h1>
         <p className="text-center text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
           reiciendis accusantium ipsam vitae fugit, itaque repellendus non qui

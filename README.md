@@ -33,6 +33,8 @@ El proyecto fue diseñado y prototipado en Figma haciendo enfoque a una estrateg
 #### ✔️ Backend: https://api-crudo.herokuapp.com/
 #### ✔️ RepoBackend: https://github.com/iElectro13/api-CRUDo.git,
 
+## Créditos 
+Este proyecto fue desarrollado en conjunto con mi colega [Enmanuel Pereira Quijano](https://github.com/iElectro13), de quién he aprendido mucho, gracias.
 ## Contacto ✒️
 
 #### Mail: cabalholguinlufe@gmail.com 

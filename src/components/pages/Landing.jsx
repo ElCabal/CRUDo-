@@ -10,10 +10,10 @@ const Landing = () => {
           Bienvenido a CRUDo
         </h1>
         <p className="text-center text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          reiciendis accusantium ipsam vitae fugit, itaque repellendus non qui
-          numquam repudiandae facere aliquam veniam nobis quibusdam deserunt
-          autem incidunt praesentium? Dignissimos.
+          CRUDo tu plataforma dinámica para agendar y guardar en la base de
+          datos citas y o reuniones con lo equipos de desarrollo técnico y así
+          mejorar el flujo de trabajo, el rendimiento de los desarrolladores y
+          la eficiencia de la empresa para cumplir con los proyectos.
         </p>
         <div className="flex gap-2 w-full">
           <Link to="/newdate" className="btn btn-primary">
